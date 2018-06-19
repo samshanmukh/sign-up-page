@@ -1,0 +1,43 @@
+#particles-js {
+    background: black;
+    height: 400px;
+}
+
+body {
+    margin: 0;
+    font: normal 16px Arial, Halvetica, sand-serif;
+    color: #0f0;
+}
+
+#login {
+    background: rgba(0,255,0,0.2);
+    opacity: 0.9;
+    padding: 2em;
+    border: #0f0 1px solid;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#login input[type="text"], #login input[type="password"] {
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px #0f0 solid;
+    background: rgba(0,255,0,0);
+    color: #0f0;
+}
+
+#login input[type="submit"] {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px #0f0 solid;
+    background: rgb(0,255,0,0);
+    color: #0f0;
+    font-size: 100%;
+}
+
+#login input::placeholder {
+    color: #0f0;
+}
