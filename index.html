@@ -12,26 +12,29 @@
         <div id="login">
             <form action="">
                 <div>
-                    <label for="username">Username</label>
-                    <br>
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Name">
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Email">
                 </div>
     
                 <div>
-                    <label for="Password">Password</label>
-                    <br>
                     <input type="password" placeholder="Password">
                 </div>
                 
-                <input type="submit" value="Login">
+                <div>
+                    <input type="password" placeholder="Confirm Password">
+                </div>
+                
+                <input type="submit" value="Sign Up">
             </form>
         </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
-    particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('particles.json loaded...')
-    });</script>
+        particlesJS.load('particles-js', 'particles.json', () => console.log('coded by Sam Shanmukh...'));
+    </script>
 </body>
 </html>
